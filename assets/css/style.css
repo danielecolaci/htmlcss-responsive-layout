@@ -12,13 +12,8 @@ body {
     display: flex;
 }
 
-li {
-    list-style: none;
-    color: white;
-}
-
 a {
-    padding: 8px 16px;
+    margin: 8px 16px;
     text-decoration: none;
 }
 
@@ -27,21 +22,40 @@ a {
 header {
     background-color: #0084FD;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 2px #B1DAFE;
 }
 
 nav {
     align-items: center;
     justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 14px;
+}
+
+.logo {
+    padding: 1% 2%;
 }
 
 .button {
     background-color: white;
     color: black;
     border-radius: 16px;
+    padding: 8px 16px;
 }
 
 .menu {
     display: none;
+    color: white;
+    font-size: 24px;
 }
 
 /* /Header */
