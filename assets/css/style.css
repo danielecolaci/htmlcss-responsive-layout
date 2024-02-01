@@ -130,9 +130,35 @@ li {
 }
 
 /* Started */
+
+
 /* /Main */
 
 /* Footer */
+
+footer {
+    background-color: #333333;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer .container {
+    width: 50%;
+    max-width: 400px;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+    padding: 30px 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer span {
+    color: #9792E4;
+    text-decoration: underline;
+}
 
 /* /Footer */
 
