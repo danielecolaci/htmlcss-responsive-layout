@@ -22,9 +22,8 @@ a {
 header {
     background-color: #0084FD;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
-    box-shadow: 0 2px 2px #B1DAFE;
+    box-shadow: 0 2px 2px rgba(0, 132, 253, 0.5);
 }
 
 nav {
@@ -60,8 +59,77 @@ li {
 
 /* /Header */
 
+/* Debug */
+
+.debug-col {
+    min-height: 200px;
+}
+
+.debug-card {
+    min-height: 400px;
+}
+
+/* /Debug */
+
 /* Main */
 
+.violet {
+    background-color: #9792E4;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* Demo */
+
+.demo {
+    padding-top: 1.5rem;
+}
+
+.demo>.container>section {
+    background-color: #B5DDFF;
+    border-radius: 24px;
+    margin: 1rem 0;
+}
+
+/* Planning */
+
+.planning-img>img {
+    width: 100%;
+}
+
+.planning-card {
+    background-color: white;
+    border-radius: 48px;
+    margin: 1rem 0;
+}
+
+/* Partner */
+
+.partner-card {
+    background-color: #9792E4;
+    border-radius: 48px;
+    margin: 1rem 0;
+}
+
+/* Benefit */
+
+.benefit-card {
+    background-color: white;
+    border-radius: 48px;
+    margin: 1rem 0;
+}
+
+/* About */
+
+.about-img>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Started */
 /* /Main */
 
 /* Footer */
