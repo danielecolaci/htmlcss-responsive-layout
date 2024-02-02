@@ -12,9 +12,36 @@ body {
     display: flex;
 }
 
+/* Style */
+
 a {
     margin: 8px 16px;
     text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #9792E4;
+}
+
+h3 {
+    font-size: 24px;
+    color: #9792E4;
+    margin-bottom: 30px;
+}
+
+h5 {
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 /* Header */
@@ -125,17 +152,13 @@ li {
     margin: 30px;
 }
 
-h3 {
-    font-size: 24px;
-    color: #0084FD;
-    margin-bottom: 30px;
-}
-
 .demo p {
-    font-size: 16px;
-    line-height: 1.8;
     font-weight: bold;
     color: #607587;
+}
+
+.demo h3 {
+    color: #0084FD;
 }
 
 .image {
@@ -192,8 +215,14 @@ h3 {
 
 /* Benefit */
 
+.benefit {
+    padding: 60px 0;
+}
+
 .benefit h1 {
     text-align: center;
+    margin-bottom: 60px;
+    color: white;
 }
 
 .grid {
@@ -207,6 +236,19 @@ h3 {
     background-color: white;
     border-radius: 48px;
     width: calc((100% - 30px) / 3);
+    padding: 24px;
+}
+
+.benefit p {
+    margin-bottom: 20px;
+}
+
+.benefit .button {
+    color: white;
+    background-color: #9792E4;
+    padding: 8px 32px;
+    letter-spacing: 2px;
+    margin: 0;
 }
 
 /* About */
