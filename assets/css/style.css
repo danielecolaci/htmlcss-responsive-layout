@@ -68,6 +68,7 @@ li {
 
 .debug-card {
     min-height: 400px;
+    min-width: 300px;
 }
 
 /* /Debug */
@@ -111,6 +112,11 @@ li {
 
 /* Planning */
 
+.planning .container {
+    align-items: end;
+    gap: 40px;
+}
+
 .planning-img>img {
     width: 100%;
 }
@@ -118,10 +124,13 @@ li {
 .planning-card {
     background-color: white;
     border-radius: 48px;
-    margin: 1rem 0;
 }
 
 /* Partner */
+
+.partner-text {
+    text-align: center;
+}
 
 .partner-card {
     background-color: #9792E4;
@@ -131,10 +140,21 @@ li {
 
 /* Benefit */
 
+.benefit h1 {
+    text-align: center;
+}
+
+.grid {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 .benefit-card {
     background-color: white;
     border-radius: 48px;
-    margin: 1rem 0;
+    width: calc((100% - 30px) / 3);
 }
 
 /* About */
@@ -206,6 +226,15 @@ footer span {
         margin: 0 auto;
     }
 
+    .planning .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefit-card {
+        width: calc((100% - 15px) / 2);
+    }
 }
 
 
@@ -223,7 +252,10 @@ footer span {
     .col-4 {
         width: 100%;
     }
-}
 
+    .benefit-card {
+        width: 100%;
+    }
+}
 
 /* /Responsive */
