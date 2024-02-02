@@ -159,12 +159,17 @@ li {
 
 /* About */
 
+.started-section {
+    text-align: center;
+}
+
 .about-img>img {
     width: 100%;
     border-radius: 50%;
 }
 
 /* Started */
+
 
 
 /* /Main */
@@ -255,6 +260,10 @@ footer span {
 
     .benefit-card {
         width: 100%;
+    }
+
+    .reverse {
+        flex-wrap: wrap;
     }
 }
 
