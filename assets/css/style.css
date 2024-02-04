@@ -81,21 +81,6 @@ li {
 }
 
 /* /Header */
-
-/* Debug */
-
-.debug-col {
-    min-height: 400px;
-    width: 100%;
-}
-
-.debug-card {
-    min-height: 400px;
-    min-width: 300px;
-}
-
-/* /Debug */
-
 /* Main */
 
 .violet {
@@ -192,9 +177,31 @@ li {
     width: 100%;
 }
 
+.planning-text {
+    color: white;
+}
+
+.planning h1 {
+    margin: 50px 0;
+}
+
 .planning-card {
     background-color: white;
     border-radius: 48px;
+    padding: 40px;
+    text-align: center;
+}
+
+.planning-card img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.fa-arrow-down-long {
+    background-color: #9792E4;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
 
 /* Partner */
@@ -286,9 +293,34 @@ li {
 
 /* About */
 
+.about article {
+    flex-grow: 1;
+    padding-right: 40px;
+}
+
+.about h1 {
+    color: #9792E4;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    width: 80%;
+}
+
 .about-img>img {
     width: 100%;
     border-radius: 50%;
+}
+
+.about .button {
+    background-color: #9792E4;
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
 }
 
 /* Started */
@@ -421,6 +453,10 @@ footer span {
 
     .reverse {
         flex-wrap: wrap;
+    }
+
+    .about article {
+        padding-right: 0;
     }
 
     .partner-card {
